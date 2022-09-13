@@ -7,7 +7,7 @@ fun main(){
     println("Digite 15 alturas de pessoas diferentes: ")
 
     var maiorH = 0.0
-    var menorH = 10000000000000000.0
+    var menorH = Double.MAX_VALUE
 
     for (h in 1..15) {
         val altura: Double = sc.nextDouble()

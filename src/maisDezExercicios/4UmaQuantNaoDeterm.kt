@@ -18,7 +18,7 @@ fun main() {
 
 
     //valor != (-1) - para parar a entrada de valores
-    while (numero != (-1)) {
+    while (numero >= 0) {
         numero = sc.nextInt()
 
         if (numero in 0..25) {
@@ -39,4 +39,5 @@ fun main() {
     println("No intervalo [51-75] tem $cont3 números")
     println("No intervalo [76-100] tem $cont4 números")
 }
+
 
